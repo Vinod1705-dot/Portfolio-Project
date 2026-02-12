@@ -1,6 +1,5 @@
-function scrollToContact() {
-    document.getElementById("contact").scrollIntoView({ behavior: "smooth" });
-}
+// script.js
+// ... previous code ...
 
 document.getElementById("contactForm").addEventListener("submit", async function(e) {
     e.preventDefault();
@@ -11,11 +10,13 @@ document.getElementById("contactForm").addEventListener("submit", async function
         message: document.getElementById("message").value
     };
 
-    await fetch("http://localhost:5000/contact", {
+    // CHANGED: Use relative path. Vercel routes /api to your api/index.js file
+    //
+    await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data)
     });
 
     alert("Message Sent Successfully!");
-});
+})
