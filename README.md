@@ -1,11 +1,14 @@
-# COMPLETE-PORTFOLIO-WEBSITE
+# Responsive Portfolio Website Liz
+## [Watch it on youtube](https://youtu.be/F2_6rFk-UC8)
+### Responsive Portfolio Website Liz
 
-COMPLETE PORTFOLIO WEBSITE &lt; HTML > { CSS } ( JavaScript )
+- Responsive Personal Portfolio Website Using HTML CSS & JavaScript
+- Contains several pages (About, Work & Contact)
+- Includes a dark & light theme.
+- Sending emails in the contact section.
+- Developed first with the Mobile First methodology, then for desktop.
+- Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-The fruit of patience is sweet. Let's [check the webpage.](https://shu-vro.github.io/COMPLETE-PORTFOLIO-WEBSITE/)
+💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
 
-_DISCLAIMER: YOU SHOULD USE VITE FOR DEVELOPMENT AND PRODUCTION. to deploy using github pages, visit [vite](https://vitejs.dev/guide/static-deploy#github-pages)_
-
-However, if you do not use vite, you cannot access the mapbox from now (not a big deal). Website will still work, but not with the fancy map. A default placeholder image would be shown.
-
-<!-- NO MORE FREE API KEYS 🍌 -->
+![preview img](/preview.png)
